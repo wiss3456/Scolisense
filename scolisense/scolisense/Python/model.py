@@ -8,7 +8,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.utils import to_categorical
 
 # === Charger les données avec un encodage spécifique ===
-train_data = pd.read_csv("C:\\Users\\PC\\Downloads\\scolisense (3)\\scolisense\\scolisense\\Python\\posture_data_MPU.csv", encoding='ISO-8859-1')
+train_data = pd.read_csv("C:\\Users\\PC\\Downloads\\scolisense_vf\\scolisense\\scolisense\\Python\\posture_data_MPU.csv", encoding='ISO-8859-1')
 
 # === Supprimer la colonne 'Timestamp' ===
 train_data = train_data.drop(columns=['Timestamp'])
